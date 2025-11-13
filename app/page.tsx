@@ -20,7 +20,7 @@ const Home = () => {
         <h3 className="">Featured Events</h3>
         <ul className="events">
           {Events.map((event, index) => (
-            <li key={index}>
+            <li key={index} className="list-none">
               {" "}
               <EventCard {...event} />
             </li>
